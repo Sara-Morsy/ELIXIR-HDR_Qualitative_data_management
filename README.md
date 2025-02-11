@@ -2,6 +2,11 @@
 This repository showcases our work from the ELIXIR-HDR hackathon, focusing on qualitative data management. 
 **The project does not require any coding experience. It is open to anyone interested in qualitative health data research including healthcare professionals, FAIR enthusiasts, and data stewards.**
 
+**We will be using the following tools for Brainstorming:**
+- Miro board
+https://miro.com/app/board/uXjVLgtu3Hs=/?share_link_id=464493559238
+- Zotero References list
+
 
 Qualitative data is essential to inform decisions in social and healthcare systems. This data focuses on participant experiences, and perceptions of different interventions. Moreover, it provides insights into “hows” and “whys” of different participant experiences and behaviours, helping healthcare professionals understand the challenges and impact of different interventions (1).
 
@@ -23,10 +28,7 @@ In this project, we aim to start efforts to address challenges for qualitative d
 - Proof-of-concept developments for qualitative data standards and tooling
 - Start discussions of possible solutions/tools to develop to fill in the gap in existing framework and initiatives (continued after the hackathon)
 
-**We will be using the following tools for Brainstorming:**
-- Miro board
-https://miro.com/app/board/uXjVLgtu3Hs=/?share_link_id=464493559238
-- Zotero References list
+
 
 **References**
 
