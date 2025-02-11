@@ -10,7 +10,7 @@ This repository showcases our work from the ELIXIR-HDR hackathon, focusing on qu
 https://miro.com/app/board/uXjVLgtu3Hs=/?share_link_id=464493559238
 - Zotero References list
 
-
+## Overview
 Qualitative data is essential to inform decisions in social and healthcare systems. This data focuses on participant experiences, and perceptions of different interventions. Moreover, it provides insights into “hows” and “whys” of different participant experiences and behaviours, helping healthcare professionals understand the challenges and impact of different interventions (1).
 
 Effective re-use of qualitative data in secondary data analysis and meta-analysis is important for more comprehensive understanding of recurring themes, generalizing results across multiple systems and helping in evidence-based decision-making (2, 3).
