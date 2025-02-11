@@ -1,5 +1,6 @@
 # Qualitative-data-management
 **Project leads:** Sara Morsy, Rob Free
+
 This repository showcases our work from the ELIXIR-HDR hackathon, focusing on qualitative data management. 
 
 **The project does not require any coding experience. It is open to anyone interested in qualitative health data research including healthcare professionals, FAIR enthusiasts, and data stewards.**
