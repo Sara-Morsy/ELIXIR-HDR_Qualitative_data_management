@@ -1,7 +1,7 @@
 ```mermaid
 graph TD
-    A[Research Question] --> B[Research Team and Reflexivity]
-    A --> C[Research approach]
+    A[Research Question]-->B[Research Team and Reflexivity]
+    A-->C[Research approach]
     A --> D[Analysis and Findings]
     B --> B1[Personal Characteristics]
     B1 --> B1a[Interviewer/Facilitator]
