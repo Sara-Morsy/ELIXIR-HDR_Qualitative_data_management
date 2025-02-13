@@ -1,29 +1,29 @@
-'''mermaid
+```mermaid
 graph TD;
 
-    A[Qualitative Health Research] -->|Domain 1| B[Research Team and Reflexivity]
-    A -->|Domain 2| C[Study Design]
+    A[Qualitative Health Research] --> B[Research Team and Reflexivity]
+    A --> C[Study Design]
+    B --> B1[Personal Characteristics]
+    B1 --> B1a[Interviewer/Facilitator]
+    B1 --> B1b[Credentials]
+    B1 --> B1c[Occupation]
+    B1 --> B1d[Gender]
+    B1 --> B1e[Experience and Training]
+    B --> B2[Relationship with Participants]
+    B2 --> B2a[Relationship Established]
+    B2 --> B2b[Participant Knowledge of the Interviewer]
+    B2 --> B2c[Interviewer Characteristics]
+    C --> C1[Theoretical Framework]
+    C1 --> C1a[Methodological Orientation and Theory]
+    C --> C2[Participant Selection]
+    C2 --> C2a[Sampling]
+    C2 --> C2b[Method of Approach]
+    C2 --> C2c[Sample Size]
+    C2 --> C2d[Non-Participation]
+    C --> C3[Setting]
+    C3 --> C3a[Setting of Data Collection]
+    C3 --> C3b[Presence of Non-Participants]
+    C3 --> C3c[Description of Sample]
 
-    %% Domain 1: Research Team and Reflexivity
-    B -->|Personal Characteristics| B1[Interviewer/Facilitator]
-    B -->|Personal Characteristics| B2[Credentials]
-    B -->|Personal Characteristics| B3[Occupation]
-    B -->|Personal Characteristics| B4[Gender]
-    B -->|Personal Characteristics| B5[Experience and Training]
 
-    B -->|Relationship with Participants| B6[Relationship Established]
-    B -->|Relationship with Participants| B7[Participant Knowledge of the Interviewer]
-    B -->|Relationship with Participants| B8[Interviewer Characteristics]
-
-    %% Domain 2: Study Design
-    C -->|Theoretical Framework| C1[Methodological Orientation and Theory]
-
-    C -->|Participant Selection| C2[Sampling]
-    C -->|Participant Selection| C3[Method of Approach]
-    C -->|Participant Selection| C4[Sample Size]
-    C -->|Participant Selection| C5[Non-Participation]
-
-    C -->|Setting| C6[Setting of Data Collection]
-    C -->|Setting| C7[Presence of Non-Participants]
-    C -->|Setting| C8[Description of Sample]
-'''mermaid
+```mermaid
