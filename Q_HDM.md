@@ -30,4 +30,4 @@ graph TD
     D1 --> D1c[Derivation of Themes]
     D1 --> D1d[Software]
     D1 --> D1e[Participant Checking]
-```mermaid
+```
