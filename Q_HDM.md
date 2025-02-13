@@ -1,33 +1,122 @@
 ```mermaid
-graph TD
-    A[Research Question]-->B[Research Team and Reflexivity]
-    A-->C[Research approach]
-    A --> D[Analysis and Findings]
-    B --> B1[Personal Characteristics]
-    B1 --> B1a[Interviewer/Facilitator]
-    B1 --> B1b[Credentials]
-    B1 --> B1c[Occupation]
-    B1 --> B1d[Gender]
-    B1 --> B1e[Experience and Training]
-    B --> B2[Relationship with Participants]
-    B2 --> B2a[Relationship Established]
-    B2 --> B2b[Participant Knowledge of the Interviewer]
-    B2 --> B2c[Interviewer Characteristics]
-    C --> C1[Theoretical Framework]
-    C1 --> C1a[Methodological Orientation and Theory]
-    C --> C2[Participant Selection]
-    C2 --> C2a[Sampling]
-    C2 --> C2b[Method of Approach]
-    C2 --> C2c[Sample Size]
-    C2 --> C2d[Non-Participation]
-    C --> C3[Setting]
-    C3 --> C3a[Setting of Data Collection]
-    C3 --> C3b[Presence of Non-Participants]
-    C3 --> C3c[Description of Sample]
-    D --> D1[Data Analysis]
-    D1 --> D1a[Number of Data Coders]
-    D1 --> D1b[Description of the Coding Tree]
-    D1 --> D1c[Derivation of Themes]
-    D1 --> D1d[Software]
-    D1 --> D1e[Participant Checking]
+erDiagram
+    Research_project  ||--|{ RESEARCH_QUESTION : includes
+    Research_project  ||--o{ Ethics_Governance : includes
+    Ethics_Governance {
+
+        string Ethics_review_board
+
+        string Ethics_ID
+
+        string DATE_of_Ethical_approval
+        string Consent
+
+
+    }
+
+    Research_project 
+    {
+        string Title
+        string Summary
+        string start_date
+        string end_date
+        
+        string Licence
+    }
+    Research_project ||--o{ Research_output : includes
+    Research_output   {
+        string Type
+        string Reference
+        date Date
+        
+    }
+
+
+    RESEARCH_QUESTION ||--o{ RESEARCH_APPROACH : includes
+
+    RESEARCH_APPROACH ||--o{ Data_processing_and_analysis  : includes
+
+ 
+
+    Research_project||--o{ Researcher_CHARACTERISTICS : includes
+
+    Researcher_CHARACTERISTICS {
+
+        string INTERVIEWER_FACILITATOR
+        boolean Project_lead
+        string OCCUPATION
+        string Affiliation
+        string GENDER
+        string EXPERIENCE_AND_TRAINING
+        boolean RELATIONSHIP_ESTABLISHED_with_participants
+
+    }
+
+ 
+
+    RESEARCH_QUESTION{
+        string Hypothesis
+        string Philosophical_perspective
+
+        string methods_reasoning
+
+        string Research_methods
+
+    }
+
+    RESEARCH_APPROACH ||--o{ PARTICIPANTS_SELECTION :includes   
+        
+    PARTICIPANTS_SELECTION {
+
+        string SAMPLING
+        integer number
+
+        string METHOD_OF_APPROACH
+
+        string SAMPLE_SIZE
+
+        string NON_PARTICIPATION
+        string Inclusion_and_exclusion_Criteria 
+
+    }
+
+ 
+
+    RESEARCH_APPROACH ||--o{ SETTING : includes
+    SETTING {
+
+        string Location_OF_DATA_COLLECTION
+        date start_date
+        date end_date
+        boolean PRESENCE_OF_NON_PARTICIPANTS
+
+    }
+    
+    RESEARCH_APPROACH ||--o{ data_collection_tools : includes
+ 
+ data_collection_tools {
+
+        string Software
+        string Recording_device
+        string RECORDING_MEDIUM
+        string Language
+        boolean Saturation_of_data
+    }
+
+    Data_processing_and_analysis ||--o{ DATA_processing : includes
+
+    DATA_processing {
+
+        string NUMBER_OF_DATA_CODERS
+
+        string DESCRIPTION_OF_CODING_TREE
+
+        string DERIVATION_OF_THEMES
+
+        string SOFTWARE
+
+        string PARTICIPANT_feedback
+
+    }
+
 ```
