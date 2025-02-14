@@ -20,6 +20,7 @@ erDiagram
         date start_date
         date end_date
         string Data_access_conditions
+        string Keywords
         
     }
     Research_project ||--|{ Research_output : includes
