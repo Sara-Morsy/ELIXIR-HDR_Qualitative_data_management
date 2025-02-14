@@ -1,7 +1,7 @@
 ```mermaid
 erDiagram
     Research_project  ||--|{ RESEARCH_QUESTION : includes
-    Research_project  ||--o{ Ethics_Governance : includes
+    Research_project  ||--|| Ethics_Governance : includes
     Ethics_Governance {
 
         string Review_board
@@ -20,8 +20,9 @@ erDiagram
         date start_date
         date end_date
         string Data_access_conditions
+        
     }
-    Research_project ||--o{ Research_output : includes
+    Research_project ||--|{ Research_output : includes
     Research_output   {
         string Type
         string Reference
@@ -30,7 +31,7 @@ erDiagram
     }
 
 
-    RESEARCH_QUESTION ||--o{ Experimental_Design : includes
+    RESEARCH_QUESTION ||--|{ Experimental_Design : includes
 
     Experimental_Design ||--o{ Data_processing_and_analysis  : includes
 
@@ -115,4 +116,7 @@ erDiagram
         string PARTICIPANT_feedback
 
     }
+
+
+
 ```
